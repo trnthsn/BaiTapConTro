@@ -6,7 +6,7 @@ int **keepEven(int **matrix, int nRows, int nCols)
         {
             if (matrix[i][j] % 2)
             {
-               matrix[i][j] = 0;
+                matrix[i][j] = 0;
             }
         }
     }
